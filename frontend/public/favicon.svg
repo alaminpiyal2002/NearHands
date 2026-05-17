@@ -1,0 +1,32 @@
+<svg width="64" height="64" viewBox="0 0 170 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="faviconNavyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C416F"></stop>
+      <stop offset="100%" stop-color="#1B2A4A"></stop>
+    </linearGradient>
+
+    <linearGradient id="faviconTealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14A2AF"></stop>
+      <stop offset="100%" stop-color="#0E7C86"></stop>
+    </linearGradient>
+
+    <linearGradient id="faviconGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC043"></stop>
+      <stop offset="100%" stop-color="#F0A500"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="154" height="154" rx="38" fill="#F8FAFC"></rect>
+
+  <circle cx="85" cy="85" r="63" stroke="#0E7C86" stroke-width="3" stroke-dasharray="8 7" opacity="0.22"></circle>
+
+  <circle cx="85" cy="85" r="48" stroke="#0E7C86" stroke-width="2" stroke-dasharray="5 5" opacity="0.14"></circle>
+
+  <path d="M85 25C48 25 29 51 29 84C29 116 85 142 85 142C85 142 103 126 118 107C108 112 95 110 85 99C74 86 76 66 91 55C98 50 108 49 115 52C108 36 98 25 85 25Z" fill="url(#faviconNavyGrad)"></path>
+
+  <path d="M85 25C98 25 110 36 116 51C104 43 87 47 76 59C65 72 66 90 79 102C90 112 105 112 116 104C101 124 85 142 85 142C85 142 141 116 141 84C141 51 122 25 85 25Z" fill="url(#faviconTealGrad)" opacity="0.95"></path>
+
+  <path d="M96 57C87 64 85 77 93 86C99 92 109 93 115 89C110 94 101 95 93 88C84 79 85 65 96 57Z" fill="#FFFFFF" opacity="0.42"></path>
+
+  <path d="M85 72L88 78L95 79L90 84L92 91L85 87L78 91L80 84L75 79L82 78L85 72Z" fill="url(#faviconGoldGrad)"></path>
+</svg>

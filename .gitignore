@@ -1,0 +1,99 @@
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# Backend environment files
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.envrc
+backend/venv/
+backend/.venv/
+.venv/
+
+# Django local artifacts
+*.sqlite3
+db.sqlite3
+backend/db.sqlite3
+
+# Django static/media build outputs
+staticfiles/
+backend/staticfiles/
+media/
+backend/media/
+
+# Coverage / test reports
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# =========================
+# Node / Vite / Frontend
+# =========================
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+
+dist-ssr/
+frontend/dist-ssr/
+
+.vite/
+frontend/.vite/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Local Docker / misc
+# =========================
+*.pid
+*.seed
+*.pid.lock

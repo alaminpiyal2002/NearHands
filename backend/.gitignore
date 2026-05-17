@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+backend/venv/
+
+# Environment files
+.env
+backend/.env
+
+# Local database
+db.sqlite3
+backend/db.sqlite3
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Node/frontend future
+node_modules/
+dist/
+build/
+.env.local

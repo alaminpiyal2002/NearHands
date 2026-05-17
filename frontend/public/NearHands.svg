@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eliteNavy" x1="30%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#253861" />
+      <stop offset="60%" stop-color="#1B2A4A" />
+      <stop offset="100%" stop-color="#111B30" />
+    </linearGradient>
+    
+    <linearGradient id="eliteTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#19B4C2" />
+      <stop offset="50%" stop-color="#0E7C86" />
+      <stop offset="100%" stop-color="#084E55" />
+    </linearGradient>
+
+    <linearGradient id="eliteGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="100%" stop-color="#F0A500" />
+    </linearGradient>
+
+    <filter id="shadowSeparation" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="4" stdDeviation="3" flood-color="#0A1120" flood-opacity="0.25" />
+    </filter>
+
+    <filter id="iconGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(20, 15)">
+    <g filter="url(#shadowSeparation)">
+      <circle cx="85" cy="80" r="72" fill="none" stroke="#0E7C86" stroke-width="1.5" stroke-dasharray="10 6" opacity="0.18" />
+      <circle cx="85" cy="80" r="56" fill="none" stroke="#0E7C86" stroke-width="1" stroke-dasharray="4 4" opacity="0.12" />
+
+      <path d="M85,12 C45,12 18,42 18,80 C18,114 56,138 85,152 C85,152 102,143 115,128 C96,132 76,122 68,103 C60,84 66,61 83,50 C94,43 108,44 118,50 C110,26 99,12 85,12 Z" 
+            fill="url(#eliteNavy)" />
+
+      <path d="M85,12 C99,12 114,24 122,43 C106,32 84,36 73,52 C61,68 62,91 78,105 C91,116 109,114 121,104 C104,124 85,152 85,152 C85,152 152,122 152,80 C152,42 125,12 85,12 Z" 
+            fill="url(#eliteTeal)" />
+
+      <path d="M92,54 C82,62 81,77 90,87 C96,93 105,94 111,90 C106,94 97,95 90,88 C81,79 82,64 92,54 Z" 
+            fill="#FFFFFF" opacity="0.3" />
+
+      <g filter="url(#iconGlow)">
+        <path d="M85,68 L87.3,73.2 L93,73.7 L88.7,77.5 L90,83 L85,80.2 L80,83 L81.3,77.5 L77,73.7 L82.7,73.2 Z" 
+              fill="url(#eliteGold)" />
+      </g>
+    </g>
+
+    <g transform="translate(190, 0)">
+      <text x="0" y="96" 
+            font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" 
+            font-size="76px" 
+            font-weight="900" 
+            fill="url(#eliteNavy)" 
+            letter-spacing="-2px">Near</text>
+
+      <text x="176" y="96" 
+            font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" 
+            font-size="76px" 
+            font-weight="600" 
+            fill="url(#eliteTeal)" 
+            letter-spacing="-0.8px">Hands</text>
+
+      <text x="4" y="132" 
+            font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" 
+            font-size="16px" 
+            font-weight="700" 
+            fill="#5A6A85" 
+            letter-spacing="2.6px">HYPER-LOCAL SERVICE MARKETPLACE</text>
+    </g>
+  </g>
+</svg>
