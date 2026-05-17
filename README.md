@@ -1,3 +1,10 @@
+<p align="center">
+  <img
+    src="./frontend/public/NearHands.svg"
+    alt="NearHands Logo"
+    width="540"
+  />
+</p>
 # NearHands
 
 > **A production-deployed hyper-local service marketplace that connects customers with nearby service providers through service discovery, request posting, real-time conversations, notifications, and trust-building reviews.**
